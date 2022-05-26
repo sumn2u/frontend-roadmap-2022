@@ -20,5 +20,29 @@ This roadmap has used React as an example, however, one can pick any other frame
 The decisive frontend journey is shown below.
 
 ![Frontend Roadmap](./files/frontend.jpg)
+
+Frontend development is a practise of producing website or  Web Application using HTML, JS and CSS that can be seen and interacted by the user. With the  everchanging tools and technologies used for the development one has to keep in updated. 
+
+## Pre-requisites
+
+Most of things are done in internet, so its good to has some  understanding about inner working of Internet, which are caretoriged as below:
+   
+   * Internet 
+      - Internet is global networks of computers connected togther that communicates through a stanadard set of protocols.
+      
+   * Domain Name and DNS 
+      - Domain Name is a unique name, easy-to-remember address used to access websites such as 'google.com' with the help of DNS. DNS maps the ip address with domain name and serves the resources.
+   
+   * Hosting
+     - Hosting allows you to publish internet files onto so that everybody on the internet can access it.
+ 
+   * HTTP Basics
+     - HTTP  uses `TCP/IP` communication protocal that defined how the content should be transmitted over the internet. 
+     
+   * Browsers and thier working mechanisms
+     -  Browsers are software application  that enables that enables a user to access and display web pages or other online content through its graphical      user interface.
+     
+
 ## Updating this doc
 Feel free to comment with links to free courses and topics that should be added here.
+
