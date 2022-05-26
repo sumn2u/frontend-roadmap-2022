@@ -1,6 +1,6 @@
 # Frontend Roadmap 2022
 
-This document  serves as a walkthrough for newcomers who want to prosper thier career in frontend developement.
+This document  serves as a walkthrough for newcomers who want to prosper their career in frontend developement.
 
 ## Effective ways of learning
 - Focus on fundamentals
@@ -16,5 +16,9 @@ In recent years, [React.js](https://reactjs.org/) is getting a good impression. 
 This roadmap has used React as an example, however, one can pick any other framework such as [Vue.js](https://vuejs.org/) or [Angular](https://angular.io/start). These three frameworks three major frameworks are similar in essence and have great demand. 
 
 
+## Roadmap
+The decisive frontend journey is shown below.
+
+![Frontend Roadmap](./files/frontend.jpg)
 ## Updating this doc
 Feel free to comment with links to free courses and topics that should be added here.
