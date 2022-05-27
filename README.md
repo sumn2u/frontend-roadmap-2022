@@ -57,6 +57,9 @@ Getting a strong  grasp of the fundamentals is beneficial for long term  success
    * CSS Cascade is the way our browsers resolve competing CSS declarations.
    * CSS preprocessor is a program that lets you generate CSS from the preprocessor's own unique syntax. `SASS`, `LESS`, `Stylus` are some of the examples of it.
    * CSS is notoriously difficult to manage in large, complex, rapidly-iterated systems. `BEM`, `OOCSS`, `SMACSS` are some of the ways of writing CSS that allows in writing more maintainable CSS.
+   * CSS framework is a pre-prepared library that is meant to allow for easier, more standards-compliant styling of web pages using the Cascading Style Sheets language. `Tailwind CSS`, `Chakra UI`, `Material UI` and `Material UI` are some of the examples of it.
+   * Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+  
    
 4. Javascript
 
@@ -112,6 +115,10 @@ Getting a strong  grasp of the fundamentals is beneficial for long term  success
  - Next.js is an open-source development framework built on top of Node.js enabling React based web applications
    functionalities such as server-side rendering and generating static websites.
  - Redux is a light weighted State Management Tool that helps the components in our React App to communicate with each other. 
+ - Flux is an architectural pattern proposed by Facebook for building SPAs. It suggests to split the application into `Stores`, `Dispatcher`, `Views` and `Action / Action Creators` parts.
+ - Create React App is a comfortable environment for learning React, and is the best way to start building a new single-page application in React. 
+ - React Router is a great way to build single-page applications as it prevents a page refresh every time a link is clicked.
+
  
  
  ## Testing 
@@ -124,7 +131,19 @@ Getting a strong  grasp of the fundamentals is beneficial for long term  success
   - Cypress is a javascript based end-to-end testing library running on and in the browser, making asynchronous testing simple and convenient.
   - Enzyme is a JavaScript Testing utility for React that makes it easier to test your React Components' output.
    
-    
+ ## Additional Concepts
+  - MobX is a simple, scalable, boilerplate-free state management solution. It allows you to manage application state outside of any UI framework, making the code decoupled, portable and, above all, easy to test.
+ - GraphQL is designed to make APIs fast, flexible, and developer-friendly. It allows developers to construct requests that pull data from multiple data sources in a single API call.
+ - Apollo is a platform for building a unified graph, a communication layer that helps you manage the flow of data between your application clients (such as web and native apps) and your back-end services.
+ - React Native is a popular JavaScript-based mobile app framework that allows you to build natively-rendered mobile apps for iOS and Android using same codebase.
+ - Electron allows you to build cross-platform desktop applications with HTML, CSS, and Javascript/Typescript.  It is a "Browser" like application that uses Chromium and Node.js, and is compatbile with Mac, Windows, and Linux.
+ - Next.js is an open-source framework designed to work with React and provides functionalities such as server-side rendering and generating static websites.
+ - Gatsby is an open-source framework that combines functionality from React, GraphQL and Webpack into a single tool for building static websites and apps.
+ - Bulma is a free, open source framework that provides ready-to-use frontend components that you can easily combine to build responsive web interfaces.
+ - Web accessibility, or eAccessibility, is the inclusive practice of ensuring there are no barriers that prevent interaction with, or access to, websites on the World Wide Web by people with physical disabilities, situational disabilities, and socio-economic restrictions on bandwidth and speed.
+ - Progressive Web Apps (PWAs) are web apps that use service workers, manifests, and other web-platform features in combination with progressive enhancement to give users an experience on par with native apps.
+ - Web Storage API provides mechanisms by which browsers can store key/value pairs, in a much more intuitive fashion than using cookies.
+ 
  ## Video Courses
 1. [Frontend Masters](https://frontendmasters.com/courses/) This has the best content but unfortunately this is paid and subscription is quite costly.
 2. [egghead](https://egghead.io/) even though subscription is paid, this has some excellent free courses on redux and mobx.
@@ -135,8 +154,8 @@ Getting a strong  grasp of the fundamentals is beneficial for long term  success
     * [manage-application-state-with-mobx-state-tree](https://egghead.io/courses/manage-application-state-with-mobx-state-tree)
 3. [JavaScript 30 challenge](https://javascript30.com/)
 4. [Learn Git in 20 Minutes](https://www.youtube.com/watch?v=SWYqp7iY_Tc&ab_channel=TraversyMedia)
-5. [CSS Masterclass - Tutorial & Course for Beginners](CSS Masterclass - Tutorial & Course for Beginners)
-6. [HTML Tutorial for Beginners: HTML Crash Course](HTML Tutorial for Beginners: HTML Crash Course)
+5. [CSS Masterclass - Tutorial & Course for Beginners](https://www.youtube.com/watch?v=FqmB-Zj2-PA&ab_channel=ChrisCourses)
+6. [HTML Tutorial for Beginners: HTML Crash Course](https://www.youtube.com/watch?v=qz0aGYrrlhU&ab_channel=ProgrammingwithMosh)
 
 4. Udacity
 	* Good JS courses
@@ -150,6 +169,9 @@ Getting a strong  grasp of the fundamentals is beneficial for long term  success
 1. [HTML Spec](https://html.spec.whatwg.org/dev/) has a dev only version for reading
 3. [Webpack getting started tutorial](https://webpack.js.org/guides/getting-started/)
 4. [JavaScript Garden for understanding JS quirks](https://bonsaiden.github.io/JavaScript-Garden/)
+5. [An introduction to the Flux architectural pattern](https://www.freecodecamp.org/news/an-introduction-to-the-flux-architectural-pattern-674ea74775c9/)
+
+
 ## Youtube Channels
 1. [netninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
 1. [Brad Traversy](https://www.youtube.com/user/TechGuyWeb)
