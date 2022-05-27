@@ -1,6 +1,6 @@
 # Frontend Roadmap 2022
 
-This document  serves as a walkthrough for newcomers who want to prosper their career in frontend developement.
+This document  serves as a walkthrough for newcomers who want to prosper their career in frontend development.
 
 ## Effective ways of learning
 - Focus on fundamentals
@@ -21,60 +21,60 @@ The decisive frontend journey is shown below.
 
 ![Frontend Roadmap](./files/frontend.jpg)
 
-Frontend development is a practise of producing website or  Web Application using HTML, JS and CSS that can be seen and interacted by the user. With the  everchanging tools and technologies used for the development one has to keep in updated. 
+Frontend development is the practice of producing a website or Web Application using HTML, JS, and CSS that can be seen and interacted with by the user. With the everchanging tools and technologies used for the development, one has to keep updated to cope with the changes.
 
 ## Pre-requisites
 
-Most of things are done in internet, so its good to has some  understanding about inner working of Internet, which are caretoriged as below:
+Most things are done on the internet, so its good to have some understanding of the inner working of the Internet, which are categorized as below:
    
    * Internet 
-      - Internet is global networks of computers connected togther that communicates through a stanadard set of protocols.
+      - Internet is a global network of computers connected together that communicates through a standard set of protocols.
       
    * Domain Name and DNS 
-      - Domain Name is a unique name, easy-to-remember address used to access websites such as 'google.com' with the help of DNS. DNS maps the ip address with domain name and serves the resources.
+      - Domain Name is a unique name, an easy-to-remember address used to access websites such as 'google.com' with the help of DNS. DNS maps the IP address with the domain name and serves the resources.
    
    * Hosting
-     - Hosting allows you to publish internet files onto so that everybody on the internet can access it.
+     - Hosting allows you to publish internet files so that everybody on the internet can access them.
  
    * HTTP Basics
-     - HTTP  uses `TCP/IP` communication protocal that defined how the content should be transmitted over the internet. 
+     - HTTP  uses `TCP/IP` a communication protocol that defined how the content should be transmitted over the internet.
      
-   * Browsers and thier working mechanisms
-     -  Browsers are software application  that enables that enables a user to access and display web pages or other online content through its graphical      user interface.
+   * Browsers and their working mechanisms
+     -  Browsers are software application  that enables a user to access and display web pages or other online content through its graphical      user interface.
      
 ## Foundation Layer
-Getting a strong  grasp of the fundamentals is beneficial for long term  success. It will allow to grasp complex logic further along.  HTML , CSS and JavaScript are the core foundations in frontend development which are described  below.
+Getting a strong  grasp of the fundamentals is beneficial for long term  success. It will allow grasping complex logic further along. HTML , CSS, and JavaScript are the core foundations in frontend development which are described  below.
 1. HTML
    - HTML stands for HyperText Markup Language and  is used to give structure to the webpage. It can be styled using CSS and make interactive using Javascript. 
 
-    * HTML Semantics elements clearly describes its meaning to both the browser and developer. `<form>`, `<table>` are some of its example.
-    * Validations are performed to make sure that all required for fill out in correct format before submitting the data to the server. This whole process
+    * HTML Semantics elements clearly describe its meaning to both the browser and developer. `<form>`, `<table>` are some of its examples.
+    * Validations are performed to make sure that all required for filling out in the correct format before submitting the data to the server. This whole process
     is also known as client-side validation.
 2. CSS
 
-   * CSS stands for Cascading Style Sheets and is used to style the websites or web applications.
-   * Float, grid, flexbox, positioning, display and box model are some of the important topics that are used for making layouts. 
+   * CSS stands for Cascading Style Sheets and is used to style websites or web applications.
+   * Float, grid, flexbox, positioning, display, and box model are some of the important topics that are used for making layouts. 
    * CSS Cascade is the way our browsers resolve competing CSS declarations.
    * CSS preprocessor is a program that lets you generate CSS from the preprocessor's own unique syntax. `SASS`, `LESS`, `Stylus` are some of the examples of it.
-   * CSS is notoriously difficult to manage in large, complex, rapidly-iterated systems. `BEM`, `OOCSS`, `SMACSS` are some of the ways of writing CSS that allows in writing more maintainable CSS.
+   * CSS is notoriously difficult to manage in large, complex, rapidly-iterated systems. `BEM`, `OOCSS`, `SMACSS` are some of the ways of writing CSS that allows for writing more maintainable CSS.
    * CSS framework is a pre-prepared library that is meant to allow for easier, more standards-compliant styling of web pages using the Cascading Style Sheets language. `Tailwind CSS`, `Chakra UI`, `Material UI` and `Material UI` are some of the examples of it.
-   * Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+   * Bootstrap is the most popular CSS framework for developing responsive and mobile-first websites. It contains HTML, CSS, and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
   
    
 4. Javascript
 
-   * It adds interactivity to an webpage. `Sliders`, `Cick interactions`, `popups` are some of its common implmentation seen in websites.
-   * Document Object Model (DOM)  is a programming interface for web documents that allows to change the document structure, style, and content. It views document as tree of nodes and objects. 
+   * It adds interactivity to a webpage. `Sliders`, `Cick interactions`, `popups` are some of its common implmentation seen on websites.
+   * Document Object Model (DOM)  is a programming interface for web documents that allows changing the document structure, style, and content. It views document as tree of nodes and objects. 
    * Closure is a function that references variables in the outer scope from its inner scope. The closure preserves the outer scope inside its inner scope.
    * ES6 brings new syntax and new awesome features to make your code more modern and more readable. It allows you to write less code and do more.
    * Fetch API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses. 
-   * Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. It allows `functions` to be safely used in code before they are declared.
+   * Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables, or classes to the top of their scope, prior to execution of the code. It allows `functions` to be safely used in code before they are declared.
    
    
 ## Bonus Section
    * Version Control and Repository Hosting
-     - It allows is colloraborative tool that allows  to track changes to of the codebase/files over time.  Backtracking is also possible here.
-     - `Github`, `GitLab` and `BitBucket` are some of the famous repository hosting services.
+     - It allows is a collaborative tool that allows tracking changes to the codebase/files over time. Backtracking is also possible here.
+     - `Github`, `GitLab` and `BitBucket` are some of the examples of repository hosting services providers.
    
    
 ## Node, TS and the ecosystem
@@ -85,18 +85,18 @@ Getting a strong  grasp of the fundamentals is beneficial for long term  success
    - `yarn` is a software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm (package manager)
    - Task Runner are tools to simplify your tedious work on development, like automating sass/scss compiler, bundling assets, linting source code, hot reloading local server. 
    - npm scripts are the entries in the scripts field of the `package.json` file where we specify various commands and scripts that we want to expose.
-   - Module bundler is a tool that takes pieces of JavaScript and their dependencies and bundles them into a single file, usually for use in the browser. `webpack`, `esbuild`, `parcel` are some of examples of it.
+   - Module bundler is a tool that takes pieces of JavaScript and their dependencies and bundles them into a single file, usually for use in the browser. `webpack`, `esbuild`, `parcel` are some examples of it.
    - Webpack is a module bundler capable of transforming, bundling, or packaging just about any resource or asset.
    - Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.
-   - A linter is a tool used to analyze code and discover bugs, syntax errors, stylistic inconsistencies, and suspicious constructs.  `ESLint`, `JSLint`, and `JSHint` are some of the popular javascript linters.
+   - A linter is a tool used to analyze code and discover bugs, syntax errors, stylistic inconsistencies, and suspicious constructs.  `ESLint`, `JSLint`, and `JSHint` are some of the popular javascript linter.
    - Prettier is an opinionated code formatter with support for JavaScript, HTML, CSS, and more.
-   - With ES6 modules one can easily reuse, maintain, separate and encapsulate components from being changed by external behavior.
+   - With ES6 modules one can easily reuse, maintain, separate, and encapsulate components from being changed by external behavior.
   
  2. Typescript
     - TypeScript is a strongly typed programming language that builds on JavaScript, giving better tooling at any scale. 
     - The `tsc` command envokes the TypeScript compiler. When no command-line options are present, this command looks for the tsconfig.json file.
-    - TypeScript Generics is a tool which provides a way to create reusable components. It creates a component that can work with a variety of data types rather than a single data type.
-    - The type declarations are reside under @typings of javascript libraries.
+    - TypeScript Generics is a tool that provides a way to create reusable components. It creates a component that can work with a variety of data types rather than a single data type.
+    - The type declarations  reside under @typings for third party javascript libraries.
   
   3. Functional Programming in JS/TS
      - Functional programming (often abbreviated FP) is the process of building software by composing pure functions, avoiding shared state, mutable data, and side-effects. Functional programming is declarative rather than imperative, and application state flows through pure functions.
@@ -105,25 +105,23 @@ Getting a strong  grasp of the fundamentals is beneficial for long term  success
      - Currying is a process in functional programming in which we can transform a function with multiple arguments into a sequence of nesting functions.
      - Composition is about creating small functions and creating bigger and more complete functions with them.
      - Memoization is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.
-     - `.map()` is  when we want to transform elements in an array, wheras `.reduce()` is used when you want derive a single value from multiple elements in an array.
-     - `.filter()` selectss a subset of multiple elements from an array and `.forEach()` is used to execute a function for each individual element in an array.
+     - `.map()` is  when we want to transform elements in an array, whereas `.reduce()` is used when you want to derive a single value from multiple elements in an array.
+     - `.filter()` selects a subset of multiple elements from an array and `.forEach()` is used to execute a function for each individual element in an array.
  
 
-## Understading React 
- - It is one of the most popular javascript library for building user interfaces which can render on server
-  using Node and power mobile app using React.
- - Next.js is an open-source development framework built on top of Node.js enabling React based web applications
+## Understanding React 
+ - It is one of the most popular javascript libraries for building user interfaces that can render on servers using Node and power mobile apps using React.
+ - Next.js is an open-source development framework built on top of Node.js enabling React based web application
    functionalities such as server-side rendering and generating static websites.
  - Redux is a light weighted State Management Tool that helps the components in our React App to communicate with each other. 
- - Flux is an architectural pattern proposed by Facebook for building SPAs. It suggests to split the application into `Stores`, `Dispatcher`, `Views` and `Action / Action Creators` parts.
+ - Flux is an architectural pattern proposed by Facebook for building SPAs. It suggests splitting the application into `Stores`, `Dispatcher`, `Views` and `Action / Action Creators` parts.
  - Create React App is a comfortable environment for learning React, and is the best way to start building a new single-page application in React. 
  - React Router is a great way to build single-page applications as it prevents a page refresh every time a link is clicked.
 
  
  
  ## Testing 
-  - Before delvering application to the users, one needs to make sure that the application meets the he requirements it was designed for,
-  and that it doesn't do any weird, unintended things (called 'bugs'). In order to accomplish this we test applications.
+  - Before delivering the application to the users, one needs to make sure that the application meets the requirements it was designed for, and that it doesn't do any weird, unintended things (called 'bugs'). In order to accomplish this, we test applications.
   - Jest is a delightful JavaScript Testing Framework with a focus on simplicity and works with projects 
     using: Babel, TypeScript, Node, React, Angular, Vue and more!.
   - React Testing Library (RTL) is a library for testing React applications. Its primary guiding principle is: The more your tests resemble
@@ -132,21 +130,21 @@ Getting a strong  grasp of the fundamentals is beneficial for long term  success
   - Enzyme is a JavaScript Testing utility for React that makes it easier to test your React Components' output.
    
  ## Additional Concepts
-  - MobX is a simple, scalable, boilerplate-free state management solution. It allows you to manage application state outside of any UI framework, making the code decoupled, portable and, above all, easy to test.
+  - MobX is a simple, scalable, boilerplate-free state management solution. It allows you to manage the application state outside of any UI framework, making the code decoupled, portable, and, above all, easy to test.
  - GraphQL is designed to make APIs fast, flexible, and developer-friendly. It allows developers to construct requests that pull data from multiple data sources in a single API call.
  - Apollo is a platform for building a unified graph, a communication layer that helps you manage the flow of data between your application clients (such as web and native apps) and your back-end services.
- - React Native is a popular JavaScript-based mobile app framework that allows you to build natively-rendered mobile apps for iOS and Android using same codebase.
- - Electron allows you to build cross-platform desktop applications with HTML, CSS, and Javascript/Typescript.  It is a "Browser" like application that uses Chromium and Node.js, and is compatbile with Mac, Windows, and Linux.
+ - React Native is a popular JavaScript-based mobile app framework that allows you to build natively-rendered mobile apps for iOS and Android using the same codebase.
+ - Electron allows you to build cross-platform desktop applications with HTML, CSS, and Javascript/Typescript.  It is a "Browser" like application that uses Chromium and Node.js, and is compatible with Mac, Windows, and Linux.
  - Next.js is an open-source framework designed to work with React and provides functionalities such as server-side rendering and generating static websites.
- - Gatsby is an open-source framework that combines functionality from React, GraphQL and Webpack into a single tool for building static websites and apps.
+ - Gatsby is an open-source framework that combines functionality from React, GraphQL, and Webpack into a single tool for building static websites and apps.
  - Bulma is a free, open source framework that provides ready-to-use frontend components that you can easily combine to build responsive web interfaces.
  - Web accessibility, or eAccessibility, is the inclusive practice of ensuring there are no barriers that prevent interaction with, or access to, websites on the World Wide Web by people with physical disabilities, situational disabilities, and socio-economic restrictions on bandwidth and speed.
  - Progressive Web Apps (PWAs) are web apps that use service workers, manifests, and other web-platform features in combination with progressive enhancement to give users an experience on par with native apps.
  - Web Storage API provides mechanisms by which browsers can store key/value pairs, in a much more intuitive fashion than using cookies.
  
  ## Video Courses
-1. [Frontend Masters](https://frontendmasters.com/courses/) This has the best content but unfortunately this is paid and subscription is quite costly.
-2. [egghead](https://egghead.io/) even though subscription is paid, this has some excellent free courses on redux and mobx.
+1. [Frontend Masters](https://frontendmasters.com/courses/) 
+2. [egghead](https://egghead.io/)
     * [getting-started-with-redux](https://egghead.io/courses/getting-started-with-redux)
 
     * [building-react-applications-with-idiomatic-redux](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
