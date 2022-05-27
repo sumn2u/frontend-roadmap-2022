@@ -56,6 +56,8 @@ Getting a strong  grasp of the fundamentals is beneficial for long term  success
    * Float, grid, flexbox, positioning, display and box model are some of the important topics that are used for making layouts. 
    * CSS Cascade is the way our browsers resolve competing CSS declarations.
    * CSS preprocessor is a program that lets you generate CSS from the preprocessor's own unique syntax. `SASS`, `LESS`, `Stylus` are some of the examples of it.
+   * CSS is notoriously difficult to manage in large, complex, rapidly-iterated systems. `BEM`, `OOCSS`, `SMACSS` are some of the ways of writing CSS that allows in writing more maintainable CSS.
+   
 4. Javascript
 
    * It adds interactivity to an webpage. `Sliders`, `Cick interactions`, `popups` are some of its common implmentation seen in websites.
@@ -71,6 +73,40 @@ Getting a strong  grasp of the fundamentals is beneficial for long term  success
      - It allows is colloraborative tool that allows  to track changes to of the codebase/files over time.  Backtracking is also possible here.
      - `Github`, `GitLab` and `BitBucket` are some of the famous repository hosting services.
    
+   
+## Node, TS and the ecosystem
+
+1. NodeJS
+   - Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine designed to build scalable node applications.
+   - `npm` is a package manager for the JavaScript programming language maintained by npm, Inc. It is the default package manager for Node.js.
+   - `yarn` is a software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm (package manager)
+   - Task Runner are tools to simplify your tedious work on development, like automating sass/scss compiler, bundling assets, linting source code, hot reloading local server. 
+   - npm scripts are the entries in the scripts field of the `package.json` file where we specify various commands and scripts that we want to expose.
+   - Module bundler is a tool that takes pieces of JavaScript and their dependencies and bundles them into a single file, usually for use in the browser. `webpack`, `esbuild`, `parcel` are some of examples of it.
+   - Webpack is a module bundler capable of transforming, bundling, or packaging just about any resource or asset.
+   - Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.
+   - A linter is a tool used to analyze code and discover bugs, syntax errors, stylistic inconsistencies, and suspicious constructs.  `ESLint`, `JSLint`, and `JSHint` are some of the popular javascript linters.
+   - Prettier is an opinionated code formatter with support for JavaScript, HTML, CSS, and more.
+   - With ES6 modules one can easily reuse, maintain, separate and encapsulate components from being changed by external behavior.
+  
+ 2. Typescript
+    - TypeScript is a strongly typed programming language that builds on JavaScript, giving better tooling at any scale. 
+    - The `tsc` command envokes the TypeScript compiler. When no command-line options are present, this command looks for the tsconfig.json file.
+    - TypeScript Generics is a tool which provides a way to create reusable components. It creates a component that can work with a variety of data types rather than a single data type.
+    - The type declarations are reside under @typings of javascript libraries.
+  
+  3. Functional Programming in JS/TS
+     - Functional programming (often abbreviated FP) is the process of building software by composing pure functions, avoiding shared state, mutable data, and side-effects. Functional programming is declarative rather than imperative, and application state flows through pure functions.
+     - Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.
+     - A pure function works as an independent function that gives the same output for the same inputs. 
+     - Currying is a process in functional programming in which we can transform a function with multiple arguments into a sequence of nesting functions.
+     - Composition is about creating small functions and creating bigger and more complete functions with them.
+     - Memoization is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.
+     - `.map()` is  when we want to transform elements in an array, wheras `.reduce()` is used when you want derive a single value from multiple elements in an array.
+     - `.filter()` selectss a subset of multiple elements from an array and `.forEach()` is used to execute a function for each individual element in an array.
+ 
+
+
 ## Updating this doc
 Feel free to comment with links to free courses and topics that should be added here.
 
