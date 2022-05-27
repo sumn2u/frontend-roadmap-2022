@@ -42,7 +42,35 @@ Most of things are done in internet, so its good to has some  understanding abou
    * Browsers and thier working mechanisms
      -  Browsers are software application  that enables that enables a user to access and display web pages or other online content through its graphical      user interface.
      
+## Foundation Layer
+Getting a strong  grasp of the fundamentals is beneficial for long term  success. It will allow to grasp complex logic further along.  HTML , CSS and JavaScript are the core foundations in frontend development which are described  below.
+1. HTML
+   - HTML stands for HyperText Markup Language and  is used to give structure to the webpage. It can be styled using CSS and make interactive using Javascript. 
 
+    * HTML Semantics elements clearly describes its meaning to both the browser and developer. `<form>`, `<table>` are some of its example.
+    * Validations are performed to make sure that all required for fill out in correct format before submitting the data to the server. This whole process
+    is also known as client-side validation.
+2. CSS
+
+   * CSS stands for Cascading Style Sheets and is used to style the websites or web applications.
+   * Float, grid, flexbox, positioning, display and box model are some of the important topics that are used for making layouts. 
+   * CSS Cascade is the way our browsers resolve competing CSS declarations.
+   * CSS preprocessor is a program that lets you generate CSS from the preprocessor's own unique syntax. `SASS`, `LESS`, `Stylus` are some of the examples of it.
+4. Javascript
+
+   * It adds interactivity to an webpage. `Sliders`, `Cick interactions`, `popups` are some of its common implmentation seen in websites.
+   * Document Object Model (DOM)  is a programming interface for web documents that allows to change the document structure, style, and content. It views document as tree of nodes and objects. 
+   * Closure is a function that references variables in the outer scope from its inner scope. The closure preserves the outer scope inside its inner scope.
+   * ES6 brings new syntax and new awesome features to make your code more modern and more readable. It allows you to write less code and do more.
+   * Fetch API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses. 
+   * Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. It allows `functions` to be safely used in code before they are declared.
+   
+   
+## Bonus Section
+   * Version Control and Repository Hosting
+     - It allows is colloraborative tool that allows  to track changes to of the codebase/files over time.  Backtracking is also possible here.
+     - `Github`, `GitLab` and `BitBucket` are some of the famous repository hosting services.
+   
 ## Updating this doc
 Feel free to comment with links to free courses and topics that should be added here.
 
